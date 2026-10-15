@@ -18,21 +18,21 @@
 
 ## 目录结构
 
-resumable-dl/
-├── Makefile # 编译脚本
-├── README.md # 本文档
-├── AI_COLLAB_LOG.md # AI 协作日志
-├── AI_REVIEW.md # AI 代码审查
-├── include/
-│ └── dl.h # 公共头文件
-├── src/
-│ ├── main.c # 命令分发
-│ ├── create.c # 创建空洞文件
-│ ├── write.c # 定点写入 + 断点续传
-│ ├── status.c # 查看文件状态
-│ └── progress.c # 进度记录读写
-└── tests/
-└── test_cases.md # 测试用例
+resumable-dl/  
+├── Makefile # 编译脚本  
+├── README.md # 本文档  
+├── AI_COLLAB_LOG.md # AI 协作日志  
+├── AI_REVIEW.md # AI 代码审查  
+├── include/  
+│ └── dl.h # 公共头文件  
+├── src/  
+│ ├── main.c # 命令分发  
+│ ├── create.c # 创建空洞文件  
+│ ├── write.c # 定点写入 + 断点续传  
+│ ├── status.c # 查看文件状态  
+│ └── progress.c # 进度记录读写  
+└── tests/  
+└── test_cases.md # 测试用例  
 
 ## 编译
 
@@ -80,6 +80,6 @@ ls 显示 256K、du 显示 0，就说明确实是空洞文件。
 
 ![运行截图](pictures/ovo.png)
 
-##最后
+## 最后
 
 代码和文档都还很粗糙，如果有问题欢迎在 Issues 中指出。
