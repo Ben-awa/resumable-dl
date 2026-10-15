@@ -1,0 +1,7 @@
+cd ~/resumable-dl
+cat > .gitignore << 'EOF'
+*.o
+dl
+.progress
+*.bin
+EOF
