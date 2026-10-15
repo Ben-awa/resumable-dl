@@ -36,7 +36,6 @@ resumable-dl/
 
 ## 编译
 
-```bash
 make
 生成可执行文件 dl。
 
